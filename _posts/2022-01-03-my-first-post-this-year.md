@@ -1,12 +1,10 @@
 ---
 layout: post
 title: How I've built my website
-subtitle: qucik summary
+subtitle: quick summary
 categories: Website
 tags: [Github, website]
 ---
-
-## How I have built my new website
 
 1. I created a GitHub account
 2. I cloned a repository from https://github.com/datamaunz

@@ -37,7 +37,6 @@ What are you waiting for?! Build your own website and show the world who you are
 
 ## Let's get started!
 ### 1. Create a free Github account
-<br>
 
 ![Sign up](/assets/images/post_images/website_tutorial/sign_up.png)
 
@@ -48,16 +47,12 @@ Now we are being asked whether we want to receive product updates and announceme
 Congratulations! You have a Github account!
 
 ### 2. Fork the repo with the template
-<br>
 
 ![skip intro](/assets/images/post_images/website_tutorial/skip_introduction.png)
 
 Here you can introduce yourself to those visiting your account. You should definitely do that! But for now we will skip it because we want to learn how to create our amazing website. Click “Dismiss This”, open a new tab and go to [jekyll-blog-template](https://github.com/datamaunz/jekyll-blog-template).
 
-<br>
-
 ![fork repo](/assets/images/post_images/website_tutorial/fork_datamaunz_repo.png)
-<br>
 
 Now we are on the Github account of Datamaunz. And more precisely, we are seeing the repository called *Jekyll blog template*. 
 

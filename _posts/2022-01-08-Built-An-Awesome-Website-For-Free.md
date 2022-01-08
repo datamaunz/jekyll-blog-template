@@ -106,14 +106,14 @@ Click on the little pencil icon. This will put the interface into editing mode. 
 For heading, we will pass the value; “Tech Expert Academy”. You might want to put your own name there; or the name of your project; or whatever you think represents your intentions best. Make sure to put this value into quotation marks. The result should read; "heading"; "colon"; "quotation mark"; your new heading; "quotation mark”. 
 
 Now that we are in editing mode, let's change the values for heading and subheading. Before the change, the file should contain the following entries:
-```ruby
+```Yaml
 home:
   heading: "your awesome title"
   subheading: "your awesome subheading"
   banner: "your awesome url"
 ```
 I will change it as shown below but you should pick values that represent your website (and thus yourself, your project or your cause) best. Make sure not to mess up the syntax:
-```ruby
+```Yaml
 home:
   heading: "Tech Expert Academy"
   subheading: "Land a tech job in just 6 months"
@@ -137,7 +137,7 @@ Go to *_data/translate_langs.yml* (either by navigating your file system or by u
 
 Each language option is represented by one bullet point taking up three lines. One line for language, one for image, and one for text. 
 
-```Ruby
+```Yaml
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
 

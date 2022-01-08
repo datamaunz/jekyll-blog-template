@@ -8,13 +8,7 @@ tags: [Github, website]
 
 ## Welcome to this tutorial!
 
-<figure class="video_container">
-  <iframe src="https://youtu.be/TRIys0HLJuU" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-[![Alternate Text]({/assets/images/post_images/website_tutorial/view_website_1.png})]({https://youtu.be/TRIys0HLJuU} "Link Title")
-
-<a href="https://youtu.be/TRIys0HLJuU" title="Link Title"><img src="/assets/images/post_images/website_tutorial/view_website_1.png" alt="Alternate Text" /></a>
+<a href="https://youtu.be/TRIys0HLJuU" title="Link Title"><img src="/assets/images/post_images/website_tutorial/youtube_cover_image.png" alt="Link to video version of tutorial" /></a>
 
 
 ### Why a Github page?

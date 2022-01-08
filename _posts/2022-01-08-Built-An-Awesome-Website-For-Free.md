@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Built an awesome website for free
+title: Build an awesome website for free
 subtitle: Tutorial
 categories: Website
 tags: [Github, website]

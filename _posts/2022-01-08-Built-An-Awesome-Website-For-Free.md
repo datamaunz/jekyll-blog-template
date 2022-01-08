@@ -34,7 +34,7 @@ Besides automatic translations, the site will archive your posts automatically b
 What are you waiting for?! Build your own website and show the world who you are.
 
 ## Let's get started!
-### 1. Create a free Github account
+### Create a free Github account
 
 ![Sign up](/assets/images/post_images/website_tutorial/sign_up.png)
 
@@ -44,7 +44,7 @@ Now we are being asked whether we want to receive product updates and announceme
 
 Congratulations! You have a Github account!
 
-### 2. Fork the repo with the template
+### Fork the repo containing the template
 
 ![skip intro](/assets/images/post_images/website_tutorial/skip_introduction.png)
 
@@ -56,7 +56,9 @@ Now we are on the Github account of Datamaunz. And more precisely, we are seeing
 
 It contains various folders and files. But no worries. In order to transfer all these files into our own Github account, we just have to go to the upper right corner and click on “Fork”.
 
-Now a fork is being created. This fork is a copy of the original repository that will appear in our own account. And: Here we go! 
+Now a fork is being created. This fork is a copy of the original repository that will appear in our own account.
+
+### Rename the repo such that Github will treat it as a website
 
 ![go to settings after forking](/assets/images/post_images/website_tutorial/go_to_settings_adter_forking.png)
 
@@ -64,77 +66,127 @@ As you can see, we are now in our own Github account; and more precisely. We are
 
 To make this our website, we have to change the name of this repository. To do so, go to settings.
 
-By convention, Github repositories that are named by the name of the Github account; followed by "dot", “GitHub”, "dot", "i o", will be treated as websites by Github. In our case, this is "tea", "minus", "Berlin", "dot", “GitHub”, "dot", i o.
+By convention, Github repositories that are named by the name of the Github account followed by *.github.io* will be treated as websites by Github. In our case, this is *tea-berlin.github.io*
+
+![rename repo](/assets/images/post_images/website_tutorial/rename_repo.png)
+
+Change the entry for *repository name* accordingly and hit *rename*.
 
 
-Change the entry for "repository name" accordingly; and hit "rename".
+If you have followed the Tutorial up to this point, your repository should now have the name that you have selected as username for your Github account and this name should be followed by *.github.io*. This is also the address to your website. Open a new tab and enter the name of your repository. In my case, this is tea-berlin.github.io. It might take a few minutes until the changes will have propagated. BAEHM! We have our own website! 
 
+![view website 1](/assets/images/post_images/website_tutorial/view_website_1.png)
 
-If you have followed the Tutorial up to this point, your repository should now have the name that you have selected as username for your Github account; and this name is being followed by; “dot”, “GitHub”, “dot”, “io”. This is also the address to your website. Open a new tab; and enter the name of your repository. In my case, this is “tea”, “minus”, “berlin”, “dot”, Github, “dot”, io.
+And users can pick their favorite language to view your site. Later we will see how to customise the choices in this menu.
 
-Hit enter. It might take a few minutes until the changes will have propagated. 
+Let’s go back to our repository and scroll down to the ReadMe Page. It shows all the steps required to customise your page. You only have to follow the links to access the respective files. Note, you could also access the files directly. But we will be using the links to make it as easy to follow as possible.
 
-BAEHM! 
+![readme instrutions](/assets/images/post_images/website_tutorial/readme_instructions.png)
 
-We have our own website! 
+### Thank Jeffreytse for creating this template
 
-Isn't that amazing?!
+First, let’s thank the creator of this amazing template, Jeffreytse, by following the first link. The link brings us to the original repository from where Datamaunz has forked its repository in order to simplify it by creating a Readme etc. to make it easier for people like us. However, the actual work comes from Jeffreytse. You can show your appreciation by giving a star for this repository.
 
-And users can pick their favorite language to view your site. We will later see how to customise the choices in this menu.
+![star for jeffreytse](/assets/images/post_images/website_tutorial/star_for_jeffreytse.png)
 
-Let’s scroll down to the ReadMe Page. It shows all the steps that are required to customise your page. You only have to follow the links to access the respective files. Note; you could also access the files directly. But we will be using the links to make it as easy to follow as possible.
-
-
-First, let’s thank the creator of this amazing template, Jeffreytse, by following the link. The link brings us to the original repository. We have forked the repo from the Datamounz account. But Datamounz got it from here. Datamounz simplified it a bit and added the Readme to make it easier for people like us. However, the actual work comes from Jeffreytse. You can show your appreciation by clicking the star for this repository.
-
+### Customize heading and subheading
 
 Now, let’s go back to our own repository and personalize the contents.
 
-When looking at our website, you can see that it currently says; “your awesome title”; and; “your awesome subheading”. 
+In its current version, our website says *your awesome title* and *your awesome subheading*. 
 
-Go to _data/defaults dot yaml. The goal is to change the values for heading and subheading. In order to do so, you have to click on the little pencil icon. This puts the interface into editing mode. Note; this is not how experienced developers use Github. They would do the changes via an Editor different from Github and commit the changes to some branch and merge them into the main branch that we are currently on. However, for our current purpose it is okay to use this graphical user interface. You will learn in another lesson how to use Github more efficiently. 
+To change the values for heading and subheading, go to _data/defaults.yml (by following the link in the readme instructions or by opening the file via the file system in your repo). 
+
+![defaults_yml file](/assets/images/post_images/website_tutorial/defaults_yml.png)
+
+Click on the little pencil icon. This will put the interface into editing mode. Note, this is not how experienced developers use Github. They would do the changes via an Editor like VS Code or Pycharm, commit the changes to some branch and merge them into the main branch. You should definitely do that in the future as well. However, for our current purpose it is okay to use this graphical user interface (even though less efficient). You will learn in another lesson how to use Github more efficiently. 
+
+![click pencil icon for editing](/assets/images/post_images/website_tutorial/hit_pencil_icon.png)
 
 For heading, we will pass the value; “Tech Expert Academy”. You might want to put your own name there; or the name of your project; or whatever you think represents your intentions best. Make sure to put this value into quotation marks. The result should read; "heading"; "colon"; "quotation mark"; your new heading; "quotation mark”. 
 
-Now, change the value of subheading in the same fashion. We will pass; "Land a tech job in just 6 months”. 
+Now that we are in editing mode, let's change the values for heading and subheading. Before the change, the file should contain the following entries:
+```ruby
+home:
+  heading: "your awesome title"
+  subheading: "your awesome subheading"
+  banner: "your awesome url"
+```
+I will change it as shown below but you should pick values that represent your website (and thus yourself, your project or your cause) best. Make sure not to mess up the syntax:
+```ruby
+home:
+  heading: "Tech Expert Academy"
+  subheading: "Land a tech job in just 6 months"
+  banner: "your awesome url"
+```
+Now, scroll down to the bottom of the page and smash the Commit button.
 
-You should put your own slogan there. Again; use quotation marks and don’t mess up the syntax of the file.
+![commit changes](/assets/images/post_images/website_tutorial/Commit_button.png)
 
+Congratulations, you have committed your first changes! This is huge. Github is a version control system. Changes are documented in the form of such commits. This means, based on your history of commits, you can restore earlier versions of your repository. This comes in handy when you (or someone else) have messed up.
 
-Now; scroll down to the bottom of the page and smash the Commit button.
+### Customize menu for automatic translations
 
-Congratulations! You have committed your first changes! This is huge. Github is a version control system. Changes are documented in the form of such commits. This means, based on your history of commits, you can restore earlier versions of your repository. This comes in handy when you; or someone else; have messed up.
+Let’s make some more changes to our website. Go back to your root repository and scroll down to the Readme file. 
 
-Now; let’s make some more changes to our website. Go back to your root repository; and scroll down to the Readme file. 
+The second change is about the menu for automated translations. You do not have to make any changes here if you are satisfied with the default options. In case you want to make changes, this is how you can do it.
 
-The second change is about the menu for automated translations. You do not have to make any changes here; if you want to keep the current state. But I want to show you nonetheless how to make such changes when needed.
+Go to *_data/translate_langs.yml* (either by navigating your file system or by using the link in the ReadMe instructions).
 
-In order to go to the respective file, click on  _data/translate_langs; dot; yaml
+![translate_lang](/assets/images/post_images/website_tutorial/translate_lang.png)
 
+Each language option is represented by one bullet point taking up three lines. One line for language, one for image, and one for text. 
 
-As you can see; each language option is represented by one bullet point taking up three lines. One line for language; one for image; and one for text. Links to the respective abbreviations and country flags will be put down in the comments section below.
+```Ruby
+# Translate languges
+# langs refer to https://cloud.google.com/translate/docs/languages
 
-Instead of adding a new language, we will just move up the entry for Arabic into the second position.
+- lang: en
+  img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+  text: English
 
+- lang: fr
+  img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+  text: French
 
-To be able to edit the file; we have to go again to the pencil icon. Now copy and cut the entry and paste it into the second position. 
+- lang: zh-CN
+  img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+  text: Chinese(Simple)
 
-Scroll down; and commit the changes. 
+...
+```
 
-Now; let’s go back to the root repository and head down to the Readme file. The third intervention concerns the banner image. 
+The first bullet block represents the language that is being displayed as first option in the menu, the second as second etc. If you want to change the order in which the languages appear, just switch to editing mode (the pencil icon), copy the bullet block that you want to move to a different place and paste it to the desired position. 
 
-Again; the default image is great and you do not have to change it. But just in case; if you wanted to change the image, click the link assets/images/banners. This will bring you to a folder that should contain two files: datacamp_certificate_dummy.jpg; and home.jpeg
+To remove a language, just delete the respective bullet block.
 
+To add a new language, you need to provide:
+- *lang:* followed by an abbrevation of the language (the [following languages and their abbreviations](https://www.labnol.org/code/19899-google-translate-languages) are being supported
+- *img:* a link to a country flag image that will appear in the language menu (links to [country flags](https://www.countryflags.com/) can be found here)
+- *text:* the name of the language which will be uised as label in the menu
 
+Don't forget to hit the commit button at the bottom of the page to not lose your changes.
 
-home.jpeg is currently being used as your background banner; as you can see when opening the file. Again, no need to change the banner of your website. But if you wanted, you could drop another file into the banner folder. I will do that and add; balloon minus image.jpg
+### Customize the banner image
+#### Add a new image
 
+Go back to the root repository and head down to the Readme file. The third intervention concerns the banner image. The default image is great and you do not have to change it. In case you wanted to change the image, go to *assets/images/banners/*. The banners folder contains two files: 
+- datacamp_certificate_dummy.jpg and 
+- home.jpeg
 
+![banners folder](/assets/images/post_images/website_tutorial/banners_folder.png)
 
-As always; we scroll down and commit the changes. 
+home.jpeg is the image that is currently being used as your background banner. Again, no need to change the banner of your website. But if you wanted, you could drop another file into the banner folder. I will do that and add balloon-image.jpg. You should pick whatever image you want. To do so, click *Add file* and select *Upload files*. Now you can drag and drop the image into the folder.
 
-Now; we head back to the root repository. Scroll down to the Readme instructions. The second intervention needed for changing the image requires us to make a change in index.html. Hit the link.
+![drop image](/assets/images/post_images/website_tutorial/drop_image.png)
 
+Scroll down and commit the changes. 
+
+#### Make new image background image
+
+Head back to the root repository and scroll down to the ReadMe instructions. The second intervention needed for changing the image requires us to make a change in *index.html*. Open index.html by following the link or by navigating your file system.
+
+![index html](/assets/images/post_images/website_tutorial/index_html.png)
 
 As you can see; there is an entry called banner. The value for this entry is the path to the home.jpeg file that we have spotted in the banners folder. All you have to do is to change this path such that it points to the image that you want to use for your website. 
 

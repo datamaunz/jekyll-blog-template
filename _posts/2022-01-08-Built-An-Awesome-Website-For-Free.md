@@ -6,59 +6,68 @@ categories: Website
 tags: [Github, website]
 ---
 
-### Welcome to this tutorial!
+## Welcome to this tutorial!
+
+<figure class="video_container">
+  <iframe src="https://youtu.be/TRIys0HLJuU" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
+### Why a Github page?
 
 Today we will be building this amazing website. It is 100% free and 100% yours. You won’t have to pay for a domain, a template or for hosting. All you need is a Github account, which comes for free as well. Having a Github account is anyway kind of necessary if you want to break into tech. 
 
 So, no matter whether or not you need a website, you have come to the right place because you should definitely create a Github account. And when doing so, why not making the world a bit more beautiful by adding your wonderful site?
 
-Here are two examples for the kind of website you will be building: [tea-berlin](
-https://tea-berlin.github.io/) and [bruno-danelon](https://bruno-danelon.github.io/).
+### Examples for the type of website
 
-This website will allow you to blog about the things that you care about and you can show the world who you are. Your visitors can toggle between light mode and dark mode. They can pick their preferred language for viewing your site. If you are missing your preferred language here; no worries! The tutorial will show you how to further customise the options menu.
+Here are two examples for the kind of website you will be building: 
+- [tea-berlin](https://tea-berlin.github.io/) and 
+- [bruno-danelon](https://bruno-danelon.github.io/). 
 
-Besides automatic translations, the site will archive your posts automatically by date. 
+The website template comes from [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat) and got simplified by [datamaunz](https://github.com/datamaunz/jekyll-blog-template) for the sake of this tutorial.
 
-Furthermore, it will classify your posts through categories of your choice.
+### Features of your website
 
-In addition to that, you can use tags to make it easier for your users to find the right articles.
+This website will allow you to blog about the things that you care about and you can show the world who you are. Your visitors can toggle between light & dark mode and they can pick their preferred language for viewing your site. If you are missing your preferred language in the menu, no worries! The tutorial will show you how to further customise the options.
 
-And most amazingly, it looks absolutely stunning; it is ultra fast and 100 percent free. 
+Besides automatic translations, the site will archive your posts automatically by date. Furthermore, it will classify your posts through categories of your choice. In addition to that, you can use tags to make it easier for your users to find the right articles.And most amazingly, it looks absolutely stunning; it is ultra fast and 100% free. 
 
-What are you waiting for?! 
+What are you waiting for?! Build your own website and show the world who you are.
 
-Build your own website and show the world who you are.
+## Let's get started!
+### 1. Create a free Github account
+<br>
 
+![Sign up](/assets/images/post_images/website_tutorial/sign_up.png)
 
+First, we have to create a Github account. Go to [GitHub](https://github.com) and hit the sign-up button in the upper right corner. Enter an email address, a password, and a username. As mentioned before, you will not have to pay for your website, not even for the domain, because Github provides you with a subdomain, which will be constructed from your username. This is why the choice of your username is kind of important. I will go with *tea-berlin*. You should use yours. 
 
+Now we are being asked whether we want to receive product updates and announcements and we'll have to solve a quick puzzle to verify that we are humans. You'll receive a verification code that you need to enter via email, we skip the personalisation. And: Done!
 
+Congratulations! You have a Github account!
 
+### 2. Fork the repo with the template
+<br>
 
-Okay, let’s get started. First, we have to create a Github account. Go to Github.com and hit the sign-up button in the upper right corner. Now, enter an email address. Mine is berlin@techexpertacademy.com. Obviously, you should take yours. Then we have to provide a password. And, most importantly, we have to provide a username. As mentioned before, you will not have to pay for your website, not even for the domain, because Github provides you with a subdomain, which will be constructed from your username. This is why the choice of your username is kind of important. But you should not overthink it either. I am going with "tea minus berlin". 
+![skip intro](/assets/images/post_images/website_tutorial/skip_introduction.png)
 
-Now we are being asked whether we want to receive product updates and announcements. I say yes, of course! Github is awesome. I want to be the first who knows what’s coming next.
+Here you can introduce yourself to those visiting your account. You should definitely do that! But for now we will skip it because we want to learn how to create our amazing website. Click “Dismiss This”, open a new tab and go to [jekyll-blog-template](https://github.com/datamaunz/jekyll-blog-template).
 
-Let’s quickly solve this puzzle.
+<br>
 
-And now we are being asked to provide a verification code that we have received via email. Done!
+![fork repo](/assets/images/post_images/website_tutorial/fork_datamaunz_repo.png)
+<br>
 
-I skip the personalisation.
-
-And: Congratulations! You have a Github account!
-
-
-
-Here you can introduce yourself to those visiting your account. You should definitely do that! But for now we will skip it because we want to learn how to create the amazing website that we have seen in the beginning. Click “Dismiss This”; and open a new tab. Go to 
-
-"github.com". "slash". "datamounz". "slash". "jekyll". minus. "blog". minus. "template". 
-
-And no worries! You will find the link below in the comments section of this video.
-
-Now we are on the Github account of Datamounz. And more precisely, we are seeing the repository called "Jekyll blog template". 
+Now we are on the Github account of Datamaunz. And more precisely, we are seeing the repository called *Jekyll blog template*. 
 
 It contains various folders and files. But no worries. In order to transfer all these files into our own Github account, we just have to go to the upper right corner and click on “Fork”.
 
-Now a fork is being created. This fork is a copy of the original repository that will appear in our own account. And: Here we go ! As you can see, we are now in our own Github account; and more precisely. We are in our own repository called “Jekyll blog template”.
+Now a fork is being created. This fork is a copy of the original repository that will appear in our own account. And: Here we go! 
+
+![go to settings after forking](/assets/images/post_images/website_tutorial/go_to_settings_adter_forking.png)
+
+As you can see, we are now in our own Github account; and more precisely. We are in our own repository called “Jekyll blog template”.
 
 To make this our website, we have to change the name of this repository. To do so, go to settings.
 

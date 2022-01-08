@@ -12,7 +12,6 @@ tags: [Github, website]
   <iframe src="https://youtu.be/TRIys0HLJuU" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ### Why a Github page?
 
 Today we will be building this amazing website. It is 100% free and 100% yours. You won’t have to pay for a domain, a template or for hosting. All you need is a Github account, which comes for free as well. Having a Github account is anyway kind of necessary if you want to break into tech. 

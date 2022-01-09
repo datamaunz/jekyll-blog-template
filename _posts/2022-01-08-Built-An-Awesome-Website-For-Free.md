@@ -161,7 +161,7 @@ The first bullet block represents the language that is being displayed as first 
 To remove a language, just delete the respective bullet block.
 
 To add a new language, you need to provide:
-- *lang:* followed by an abbrevation of the language (the [following languages and their abbreviations](https://www.labnol.org/code/19899-google-translate-languages) are being supported
+- *lang:* followed by an abbrevation of the language (the [following languages and their abbreviations](https://cloud.google.com/translate/docs/languages) are supported
 - *img:* a link to a country flag image that will appear in the language menu (links to [country flags](https://www.countryflags.com/) can be found here)
 - *text:* the name of the language which will be uised as label in the menu
 
@@ -182,157 +182,173 @@ home.jpeg is the image that is currently being used as your background banner. A
 
 Scroll down and commit the changes. 
 
-#### Make new image background image
+#### Link to new image
 
 Head back to the root repository and scroll down to the ReadMe instructions. The second intervention needed for changing the image requires us to make a change in *index.html*. Open index.html by following the link or by navigating your file system.
 
 ![index html](/assets/images/post_images/website_tutorial/index_html.png)
 
-As you can see; there is an entry called banner. The value for this entry is the path to the home.jpeg file that we have spotted in the banners folder. All you have to do is to change this path such that it points to the image that you want to use for your website. 
-
-Click the little pencil button to edit the file. Now replace home.jpeg by the name of your new file.
-
-In my case; the name of the new file is; balloon minus image.jpg
-
-In your case; the name might be different; if you want to change the image at all;
-
-Make sure that you keep the part of the path that points to the banners folder; assets/images/banners;
-
-Scroll down and commit the changes.
-
-Done!
+The file contains an entry called banner. The value for this entry is the path to *home.jpeg* that we have spotted in the banners folder. Change this path such that it points to the image that you want to use for your website. To do so, click the little pencil button to edit the file. Now replace home.jpeg by the name of your new file.
 
 
-Let’s check how the website looks now. Note that it might take a few minutes until the changes have propagated. 
+```HTML
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-And; voilà! Looking great! But note; the upper left corner still shows; “your awesome title”;
+layout: home
+title: Home
+banner: "assets/images/banners/home.jpg"
+---
+```
 
-We want to change that. So head back to the root repository. And scroll down to the Readme instructions.
+I will use balloon-image.jpg. You should use the image you have uploaded (or pass a url to an image that is stored somewhere else):
 
-This time, we need to edit the
-Title;
-Email;
-Author;
-Copyright;
-Description;
-And potentially the favicon
+```HTML
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-In a file called; _config; dot; yaml;
+layout: home
+title: Home
+banner: "assets/images/banners/balloon-image.jpg"
+---
+```
 
-To open the file, follow the respective link. 
+Scroll down and commit the changes. Done!
 
+### Further customizations
 
-As you can see; all the entries are here.
-Title; Email; Author; Copyright; Description; and the favicon.
+Head back to the root repository. And scroll down to the Readme instructions.
 
+This time, we need to edit some entries in a file called *_config.yml*. Open the file and scroll down a bit.
 
-As always; click at the little pencil icon to edit the file;
+![config_yml](/assets/images/post_images/website_tutorial/config_yml.png)
 
-Add a value to the title. I will go for; Tech Expert Academy
+We want to change:  *Title* (which will appear in the upper left corner of your website), *Email*, *Author* (name is being used on your blog posts), *Copyright* (appears on the footer of your site), *Description* (appears as description on, e.g., Google when showing your site), and potentially the favicon. You should pass what works best for you, I will make the following changes for my site (note that the code below only shows the entries without comments etc.):
 
-Then enter an email address. My address is; berlin@techexpertacademy.com
+```YAML
+title: Tech Expert Academy
+email: berlin@techexpertacademy.com
+author: TEA
+copyright: "Unpublished Work (cleft) {currentYear} {author}"
+description: >- # this means to ignore newlines until "baseurl:"
+  We offer high quality courses that help you become a tech professional in record time. We also help you to find a job at a great company. You only pay tuition when you get hired.
+```
 
-Add a name for the author; my name will be the abbreviation of Tech Expert Academy; which is T; E; A;
+Scroll down, commit the changes and: Done!
 
-For the copyright line; I will just remove the starting year, since we will be starting the blog this year; Do what works best for your blog though.
+### Customize your About page
+#### Markdown
 
-Now, we only need a description. I will copy the description we have on our website at techexpertacademy.com:
+Back to the root repository scrolling down to the ReadMe instructions. Only the customisation of the About page is left. We can do this by using Markdown syntax.
 
-We offer high quality courses that help you become a tech professional in record time. We also help you to find a job at a great company. You only pay tuition when you get hired.
+Markdown is an easy to use language for creating formatted text. Trust me, if you are not using it already, you will be using it a lot in the future. It is a good investment of your time to get familiar with the basic syntax. There are plenty of good resources online. The Readme instructions link to a good [guide](https://www.markdownguide.org/basic-syntax/). 
 
-Now; I replace the current description with this new text. Obviously; you should take your own description.
-
-For the moment, I do not want to select a favicon. So; I leave it as it is, scroll down; and commit my changes. Done!
-
-
-Back to the root repository; I scroll down to the Readme instructions. Only the customisation of the About page is left
-
-
-According to the Readme instructions; we should now customise our about page. We can do this by using Markdown syntax.
-
-Markdown is an easy to use language for creating formatted text. Trust me, you will be using it a lot in the future. It is a good investment of your time to get familiar with the basic syntax. There are plenty of good resources online. Here in the Readme instructions; you can find a link to a good guide. 
-
-
-Let’s open the guide in a new tab. 
-
-The syntax is straight forward. For example; to create different levels for headings; you can use hashes. One hash gives you the largest heading size. Two hashes will give you the second largest size; etc
-
-Just scroll a bit through the page and you will see, that you can do most of the things you usually use for text formatting; making text bold or italic; creating tables; inserting links; inserting images; etc.
+Open the guide in a new tab. The syntax is straight forward. For example: to create different levels for headings you can use hashes in front of the line you want to treat as heading. One hash gives you the largest heading size. Two hashes will give you the second largest size. Just scroll a bit through the guide and you will see, that you can do most of the things you usually use for text formatting: Making text bold or italic, creating tables, inserting links, inserting images etc. The text of this tutorial is written in markdown.
 
 The best way to learn is practice! So, let’s get our hands dirty.
 
+#### About.md
 
-Follow the link to; about; dot; md.
+Follow the link to about.md (or open the file via your file system) and go to editing mode by clicking the little pencil icon.
 
-As you can see; it currently shows; "About"; "Hi nice to meet you".
+```
+---
+layout: about
+title: About
+---
 
-Let's verify this on the actual website. Clicking at; about; in the menu; brings us to the page. Nothing surprising here. Let's go back to the tab of our repository and improve the content of our page. 
+## About
 
-As always; click the little pencil icon to enter the editing mode.
+Hi, nice to meet you.
+```
 
-We want to tell the world what our site is about. You can write about yourself; or about your project.
+Currently, the file only says: About Hi nice to meet you. The entries on top of the text page indicate meta information. They are demarcated by three dashes at the top and the bottom. Inside of them we have two variables:
+- *layout* refers to the layout used for the about page that is being defined in the *_layouts* folder. Let's not touch it here and leave it as it is
+- *title* defines the title that appears on your website's about page.
 
+Everything that follows underneath this header can be formatted by using markdown syntax.
 
+Use the about page to tell the world about yourself, your project or your cause. For communication purposes, it is good practice to break down messages into: 
+- *Why?*, 
+- *How?* and 
+- *What?* 
 
+We will be using these categories as headers by applying three hashes (but do what works best for you). Also, do not forget to tell visitors under Contacts how they can get in touch. This is how the file looks for me after editing:
 
-Remember; two hashes will give you the second largest heading.
+```
+---
+layout: about
+title: About
+---
 
-Instead of ## About; I will write ## Welcome to Tech Expert Academy
+## Welcome to Tech Expert Academy
 
-For communication purposes; it is good practice to break down messages into; "Why?"; "How?"; and ; "What?"; we will be using these categories as headers by applying three hashes. 
-
-
-
-To answer the first question; "Why are we doing what we are doing?"; We will pass;
+### Why
 
 While companies are desperately looking for tech talent, many people are either unemployed or they work in unfullfilling jobs. We want to be the match maker between these two parties. 
 
-And; "How are we doing that?"
+### How
 
 We partner with fast growing companies. By knowing their needs in the near future, we know how to best prepare our students to fill these roles. 
 
-What precisely do we offer?
+### What
 
-At Tech Expert Academy students take a three months intensive training for careers such as Data Engineering, Cloud Solutions etc. They learn at their own pace and have a personal coach checking in with them each week. After the three months period is over, coaches and mentors help to land a job. The classes are free and will be paid back through income share agreements if the student successfully lands a job.
-
-
-Let's add one more section; telling people how to contact us. 
-
-
-
-
+At TEA students take a three months intensive training for careers such as Data Engineering, Cloud Solutions etc. They learn at their own pace and have a personal coach checking in with them each week. After the three months period is over, coaches and mentors help to land a job. The classes are free and will be paid back through income share agreements if the student successfully lands a job.
 
 ### Contact
 
 You are interested? Check out our [website](https://techexpertacademy.com). If you like what we are doing, [send us](https://www.techexpertacademy.com/#contact-form-main) a link to your GitHub Page and we’ll get back to you soon. Follow us on [LinkedIn](https://de.linkedin.com/company/tech-expert-academy?trk=public_profile_topcard-current-company).
+```
 
-We are using the syntax for links. You can read up on it in the markdown guide or just infer it from what you can see here.
 
-Now; scroll down and commit the changes. 
+And as always: Scroll down and commit the changes. Wonderful! We are almost there.
 
-Wonderful! We are almost there.
+## Write your first post
 
-Now; back to our root repository and down to our Readme instructions. 
+Now, back to our root repository and down to our Readme instructions. The last step is about how to add blog posts. 
 
-The last step is about how to add blog posts. 
+Follow the link to the *_posts* folder or you just scroll up and open the _posts folder directly. 
 
-You could follow the link to the _posts folder. Or; you just scroll up and open the _posts folder directly.
+![posts folder](/assets/images/post_images/website_tutorial/posts_folder.png)
 
-We have already two posts in our folder. Look at their names; They follow a particular scheme. First, we see a date. The date consists of; year; minus; month; minus; day. 
 
-This date is being followed by a name and the markdown extension. 
+
+
+We have already two posts in our folder. Look at their names: They follow a particular scheme. First, we see a date (year-month-day) followed by a name and the markdown extension:
+
+> year-month-day-postname.md
 
 You have to name your posts according to this convention. Otherwise, they will not be treated as posts. 
 
+Let's open *2021-12-25-my-second-post.md* (viewing it in editing mode)
+
+```
+---
+layout: post
+title: Introduction to Python
+subtitle: Each post also has a subtitle
+categories: Python
+tags: [Python, intro, certificate]
+---
+
+## Introduction to Python
+
+This post is meant to summarize some of the key concepts I have learned in the course *Introduction to Python*
 
 
-Let's click at "my second post".
+![datacamp certification](/assets/images/banners/datacamp_certificate_dummy.jpg)
+```
 
-As you can tell; there is a table at the very top. You might have noticed this already in other files as well. This table will not show up on the post itself. Rather, it contains important meta information.
+As you can tell, the file starts again with a header demarcated by three dashes at top and bottom containing important met information. Every post you write needs to define these meta information.
 
-Let's head to the little pencil icon to switch to editing mode.
 
-At the top of the page, we see a header that contains the meta information we were talking about. It is delineated by three dashes at the top and three dashes at the bottom. 
+
+
+
+
+
 
 Let's copy this header. We will need it for our new post. 
 

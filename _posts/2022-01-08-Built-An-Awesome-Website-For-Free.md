@@ -302,27 +302,25 @@ At TEA students take a three months intensive training for careers such as Data 
 You are interested? Check out our [website](https://techexpertacademy.com). If you like what we are doing, [send us](https://www.techexpertacademy.com/#contact-form-main) a link to your GitHub Page and we’ll get back to you soon. Follow us on [LinkedIn](https://de.linkedin.com/company/tech-expert-academy?trk=public_profile_topcard-current-company).
 ```
 
-
 And as always: Scroll down and commit the changes. Wonderful! We are almost there.
 
 ## Write your first post
 
 Now, back to our root repository and down to our Readme instructions. The last step is about how to add blog posts. 
 
-Follow the link to the *_posts* folder or you just scroll up and open the _posts folder directly. 
+Follow the link to the *_posts* folder or scroll up and open the _posts folder directly. 
 
 ![posts folder](/assets/images/post_images/website_tutorial/posts_folder.png)
 
-
-
-
-We have already two posts in our folder. Look at their names: They follow a particular scheme. First, we see a date (year-month-day) followed by a name and the markdown extension:
+We have already two posts in our folder. Look at their names: They follow the same scheme. First, we see a date (year-month-day) followed by a name and the markdown extension:
 
 > year-month-day-postname.md
 
 You have to name your posts according to this convention. Otherwise, they will not be treated as posts. 
 
-Let's open *2021-12-25-my-second-post.md* (viewing it in editing mode)
+> Tip: If you want to work on posts before publishing on your site, add a character like *_* in front of the date and it will not show up on your site. As soon as you want it to be published, remove the character.
+
+Let's open *2021-12-25-my-second-post.md*. When viewing it in editing mode it looks as follows:
 
 ```
 ---
@@ -341,108 +339,91 @@ This post is meant to summarize some of the key concepts I have learned in the c
 ![datacamp certification](/assets/images/banners/datacamp_certificate_dummy.jpg)
 ```
 
-As you can tell, the file starts again with a header demarcated by three dashes at top and bottom containing important met information. Every post you write needs to define these meta information.
-
-
-
-
-
-
-
+As you can tell, the file starts with a header demarcated by three dashes at top and bottom containing meta information. Every post you write needs to define these key value pairs.
 
 Let's copy this header. We will need it for our new post. 
 
+Head back to the _posts folder. Click on *Add file* and select *Create new file*.
 
-Head back to the _posts folder. Click on; "Add file"; and select; "Create new file".
+![add new post to folder](/assets/images/post_images/website_tutorial/add_file_post.png)
 
-Enter a name by following the naming convention that we have discussed before.
+Enter a name by following the naming convention for posts.
 
-Start with the year. 2022. Minus. The month. 01. Minus. The day. 03. Minus. The name that you want to use for the file. I will go with first post this year. Add the markdown extension. .md.
+> year-month-day-postname.md
 
-Obviously, you should be using the date of the day you are creating the post.
+I will call mine:
+- *2022-01-03-my-first-post-this-year.md* 
 
+You should take what works best for you. Let's paste the header at the top of the file and customize the key value pairs. 
 
+- The first entry is **layout**. It defines which layout will be applied to this file when being rendered. This needs to be set to post. 
+- The second entry is **title**. This title will be displayed on links to your post and on top of your post's page.
+- The third entry is **subtitle**, which will pe displayed underneath your title on the post's page. I will pass; "Quick summary";
+- The fourth entry is **categories**. If you want to use multiple categories, you can put the collection into square brackets. Order matters here (going from higher to lower categories from left to right). I will stick to one single category.
+- The fifth entry is **tags**. Put the tags that are relevant to your post into square brackets and separate them by commas.
 
-Now, let's paste the header at the top of the file.
+The actual content of the post goes below the header. You can use all the markdown magic you want. I will use an ordered list to summarize the steps of building this site. This is how my file looks after editing:
 
-The first entry is layout. It defines which layout will be applied to this file when being rendered. This needs to be set to post. 
-
-The second entry is; title. I will call it; "How I have built my website."
-
-The third entry is; subtitle. I will pass; "Quick summary";
-
-The fourth entry is; categories; I will call it; "Website";
-
-The fifth entry is; tags; Put the tags that are relevant to your post into square brackets and separate them by commas. I will use; "Github" and "Website".
-
-The information in the header look great. Let's move on to write the post.
-
-Let's start with a level 2 header starting with three hashes. 
-
-I will call it; How I've built my website.
-
-Then I will use an ordered list to explain the steps. Ordered lists can be simply created by using ordinal numbers in the following fashion.
+```
+---
+layout: post
+title: How I've built my website
+subtitle: quick summary
+categories: Website
+tags: [Github, website]
+---
 
 1. I created a GitHub account
-2. I cloned a repository from github.com/datamounz
-3. I renamed the cloned repository tea-berlin.github.io
+2. I forked a repository from https://github.com/datamaunz
+3. I renamed the forked repository tea-berlin.github.io
 4. I edited the files as described in the README.md
 5. Now I am writing my first post by following the advice that I got from the README file
+```
 
-Scroll down and commit the changes.
+Scroll down and commit the changes. Done! You first post is going live! Note that it can take a few minutes until the post shows up on your site. If it takes suspiciously long, check the file name and the header (also the file needs to be inside of the *_posts* folder).
 
-Excellent! Let's head over to the website. 
+## Further Cleanup
+### Delete *.github* folder
 
-The post is not there yet. As always, it might take some time for the changes to propagate to our site.
+Let's clean things up a bit further. You do not have to follow these steps but it does not hurt either.
 
-In the meantime, we can already look at our other pages. Head to; about.
-
-Beautiful! Looks great!
-
-At the side, we even have a Table of Contents. It automatically picks up the headers and links to the respective segments. By the way; the same happens in our posts.
+![delete .github folder](/assets/images/post_images/website_tutorial/delete_dot_github_folder.png)
 
 
-Let's test whether or not the toggle between light and dark mode works. 
-
-Nice!
-
-What about the automatic translations?
-
-Works also as desired. Great job!
-
-
-Okay; enough time should have passed for the website to update.
-
-Great! Our new post is online. Let's open the post to see how it looks.
-
-
-Looking great. Only the duplication of the heading bothers me. 
-
-Let's go back to our repository opening the _posts folder. Open the post we just created. The title is already in the header. We do not need the heading in the content section. 
-
-So let's delete it; 
-
-
-Scroll down; commit the changes and go back to the root repository.
-
-
-Let's clean things up a bit further. You do not have to follow these steps; but trust me, it will make things cleaner.
-
-Do you see the dot github folder at the top of your repository? We don't need it. Let's get rid of it.
-
-Open the dot github folder. In the upper right corner, you find a button with three dots. Click the button and select; "delete directory". Scroll down and commit the changes. 
+Do you see the *.github* folder at the top of your repository? We don't need it. Open the *.github* folder. In the upper right corner, you find a button showing *...*
+Click the button and select *delete directory*. Scroll down and commit the changes. 
 
 Excellent!
 
-If you want to cut the information on the footer down to the copyright info, you can do the following. Open the _includes folder. Then open the views folder. And open footer.html.
+### Remove footer info
 
+If you want to cut the information on the footer down to the copyright info, you can do the following. Go to _includes/views/footer.html and click on the little pencil icon to edit the page. 
 
-Go to the little pencil icon to edit the page. 
+Delete the lines 15, 16, 17, and 18 so that the following remains:
 
-Delete the lines 15; 16; 17; and 18.
+```HTML
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+        {%- assign currentYear = 'now' | date: "%Y" -%}
+        {%- assign copyright = site.copyright
+            | replace: '{currentYear}', currentYear
+            | replace: '{author}', site.author
+            | replace: '(c)', '&copy;'
+            | replace: '(p)', '℗'
+            | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
+        -%}
+      <div>{{ copyright }}</div>
+    </div>
+  </div>
+</footer>
+```
 
 Scroll down and commit the changes.
 
+## What to do next?
 
 Fantastic! You have finished the tutorial. Just wait a bit until the changes have updated on your website and you are done. Congratulations!
 
@@ -453,27 +434,3 @@ Also; please put the website you have built into the comments. If you like what 
 Note; the combination of a Jekyll blog and Github works best when edited via a proper editor. There are plenty of tutorials that you can use to flex your skills. The main idea here was to help you create a website to showcase yourself and your work. From now on, the sky is the limit. 
 
 Good luck!
-
-
-
-
-
-
-
-
-
-Balloon-image.jpg
-
-
-
-
-
-
-
-Language adjustments:
-
-https://www.countryflags.com/
-https://www.labnol.org/code/19899-google-translate-languages
-
-
-

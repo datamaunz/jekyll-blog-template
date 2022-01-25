@@ -5,19 +5,22 @@ title: About
 
 ## Hi I'm Batoul
 
-I'm a entry level data engineering.
+Bachelor's degree holde in Statistic.
 
 ### Why
 
  I looking forward to  develop my skills to find job opportunity in data engineering. 
  
+ 
 ### How
 
 I seeking to learn and practice data engineering and provide my knowledge to the company and the team I work with.
 
+
 ### What
 
 At TEA students take a three months intensive training for careers such as Data Engineering.
+
 
 ### Contact
 

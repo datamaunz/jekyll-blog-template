@@ -5,7 +5,7 @@ title: About
 
 ## Hi I'm Batoul
 
-Bachelor's degree holde in Statistic.
+Bachelor's degree holder in Statistic.
 
 ### Why
 

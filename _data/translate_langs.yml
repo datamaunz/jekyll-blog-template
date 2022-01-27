@@ -1,18 +1,15 @@
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
 
-
-  - lang: en
+- lang: en
   img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
   text: English
   
-  - lang: de
+- lang: de
   img: https://cdn.countryflags.com/thumbs/germany/flag-400.png
   text: Germany
-
-   
   
-  - lang: ar
+- lang: ar
   img: https://cdn.countryflags.com/thumbs/egypt/flag-400.png
   text: Egypt
 

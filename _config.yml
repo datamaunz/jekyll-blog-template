@@ -38,11 +38,11 @@ author: Batoul
 #
 # For example:
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
-#   "Copyright © 2017-2021 Foobar"
+#   "Copyright © 2017-2021 Foobar" 
 #
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {batoul}"
 
-description: >- # i'm a entry level data engineering, seeking to find a job opportunity where i can develop my skills,
+description: # i'm a entry level data engineering, seeking to find a job opportunity where i can develop my skills,
 and provide my knowledge to the company and the team I work with.
 
 baseurl: "" # the subpath of your site, e.g. /blog

@@ -7,4 +7,6 @@ title: About
 
 Remeinder to myself!
 
-Every day is a new day . . .
+Every day is a new day.
+
+

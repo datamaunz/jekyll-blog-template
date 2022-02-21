@@ -3,7 +3,7 @@ layout: post
 title: Meet Mr.Goethe!
 subtitle: An outline of Goethe
 categories: poetry
-tags: [German_litreture,Journaling]
+tags: [Literatur,Journaling]
 ---
 
 Johann Wolfgang von Goethe is considered the most important German poet.

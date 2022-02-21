@@ -5,5 +5,6 @@ title: About
 
 ## About
 
-##Remeinder to myself!
-#Every day is a new day . . .
+Remeinder to myself!
+
+Every day is a new day . . .

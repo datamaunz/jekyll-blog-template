@@ -5,4 +5,10 @@ title: About
 
 ## About
 
-Hi, nice to meet you.
+Remeinder to myself!
+
+Every day is a new day.
+
+
+
+

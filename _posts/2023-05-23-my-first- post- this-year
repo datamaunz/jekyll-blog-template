@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Introduction to cyber security
+# title: Introduction to cyber security
 subtitle: Quick summary
-categories: cyber security
+## categories: cyber security
 tags: [website fix, Malware removal, Vulnerability testing]
 ---
 

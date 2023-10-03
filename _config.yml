@@ -44,9 +44,9 @@ copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   i extract, analyse, visualize and interpret large amounts of data from a range of sources. This includes-
-  (Structured Data, Semi-Stuctured Data and Unstructured Data). I use different machine learning algorithms to 
+  Structured Data, Semi-Stuctured Data and Unstructured Data. I use different machine learning algorithms to 
   build models that capture the underlying patterns in the data. once i train the model, it
-  can can start predicting usingunseen data.
+  can can start predicting using unseen data.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

@@ -2,8 +2,8 @@
 layout: post
 title: Launching into Cyber Security November 2023
 subtitle: Module 1 Concepts and principles in the field of Cyber Security. 
-categories: Module 1
-tags: [Module]
+categories: Module_1
+tags: [Module, Intro]
 ---
 
 ## Launching into Cyber Security November 2023
@@ -40,3 +40,5 @@ tags: [Module]
 ### Professional Skills Matrix and Action Plan
 
 *What skills have I gained or enhanced as a result of this module and how can I use it? What else do I need to learn?*
+
+![datacamp certification](/assets/images/banners/datacamp_certificate_dummy.jpg)

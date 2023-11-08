@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Module 1 Launching into Cyber Security November 2023 Unit 1
+title: Module 1 Launching into Cyber Security November 2023
 subtitle: Concepts and principles in the field of Cyber Security. 
 categories: Module_1
 tags: [Module, Intro]

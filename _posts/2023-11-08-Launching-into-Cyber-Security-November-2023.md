@@ -26,7 +26,8 @@ tags: [Module, Intro]
 
 #### Unit 1: Artifacts
 
-*Links to artifacts to be placed here for this module*
+Collaborative learning discussion 1 *units 1-3*
+Click me for accessing forum
 
 ## Module 1: Reflections
 

@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "install": "^0.13.0",
+    "typescript": "^5.3.3"
+  }
+}

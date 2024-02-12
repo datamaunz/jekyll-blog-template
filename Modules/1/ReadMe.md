@@ -30,19 +30,19 @@ This is accomplished by using python coded functions that perform the following 
 
 - **Test 2**: Validate that the password is between 12 and 50 characters
 
-![Example Test 2 Failure](/Modules/1/img/Test2failed.png)
+![Example Test 2 Failure](/Modules/1/img/Test2.png)
 
 - **Test 3**: Ensure the presence of at least one lowercase character
 
-![Example Test 3 Failure](/Modules/1/img/Test3failed.png)
+![Example Test 3 Failure](/Modules/1/img/Test3.png)
 
 - **Test 4**: Ensure the presence of at least one uppercase character
 
-![Example Test 4 Failure](/Modules/1/img/Test4Failed.png)
+![Example Test 4 Failure](/Modules/1/img/Test4.png)
 
 - **Test 5**: Ensure the presence of at least one number
 
-![Example Test 5 Failure](/Modules/1/img/Test5Failed.png)
+![Example Test 5 Failure](/Modules/1/img/Test5.png)
 
 If all tests pass successfully, the user will be notified accordingly.
 
@@ -83,7 +83,7 @@ The main function executes a loop allowing users to enter a proposed password an
 #### Step 3. Enter a Proposed Password:
  - Input a proposed password to check if it conforms to best practices.
 
- ![Example entering proposed password](/Modules/1/img/StartEnteringPassword.png)
+ ![Example entering proposed password](/Modules/1/img/GetStarted.png)
 
 ## Notes
 

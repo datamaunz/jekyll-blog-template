@@ -1,49 +1,104 @@
-## Purpose
+# Strong Password Validator Program
 
-Template to build a versatile blog forked from [jeffreytse](https://github.com/jeffreytse/jekyll-theme-yat)
+Passwords remain the main security foundation for authenticating humans and machines (Anderson, 2020). 
 
-## Personalize the website
+A lot of the accounts that are compromised today are done so by simply guessing the password, so ensuring a password has sufficient complexity is an important cyber security control. 
+ 
+Although passwords are important, they are also problematic. Humans struggle to remember them, and even then, we struggle to enter them accurately, especially if they are complex (Anderson, 2020).  
 
-1. Go to [_data/defaults.yml](_data/defaults.yml) and change the values for
-    - heading
-    - subheading
-2. Go to [_data/translate_langs.yml](_data/translate_langs.yml) to customize the options for automatic translations by adding or removing entries.
-3. To change the background image
-    1. upload the file (ideally *.jpeg*) to [assets/images/banners/](assets/images/banners/)
-    2. change the entry for *banner* in [index.html](index.html) such that it points to your image of choice
-4. Go to [_config.yml](_config.yml) and change the values for
-    1. title
-    2. email
-    3. author
-    4. copyright
-    5. description
-    6. favicon
-5. Got to [about.md](about.md) and tell the world who you are
-    1. To do so, look up the markdown syntax in some [guide](https://www.markdownguide.org/basic-syntax/)
-6. Go to [_posts](_posts) and add you first post
-    1. the file needs to have a markdown extension (*.md*)
-    2. the file name needs to follow the format year-month-day-filename.md (e.g. 2021-12-24-filename.md)
-    3. in the head of the file, you need to provide values to the following entries (the value for layout needs to be post):
-        1. layout: post
-        2. title: Markdown Guide
-        3. subtitle: Resources to work with Markdown
-        4. categories: markdown
-        5. tags: [guide, markdown]
-    4. Write the content of the post in markdown
+This python script helps users determine if their proposed password adheres to current best practices associated with the definition of a strong password. 
 
+### Password Best Practice Criteria:
 
+A strong password can be defined as a password that is sufficiently long and has a mixture of uppercase, lower case, numbers, and special characters (Rawal et al. 2014).
 
-## License
+In summary, a strong password should:
+ - not be very common or easily guessed
+ - be of an optimal length (recommend using a phrase)
+ - contain at least one lowercase letter
+ - contain at least one uppercase letter
+ - contain at least one number
 
-This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
+### Password Validation Tests Performed
 
-<!-- External links -->
+This program will attempt to validate if a proposed password entered by the user is a strong or not.  
+This is accomplished by using python coded functions that perform the following tests:
 
-[jekyll]: https://jekyllrb.com/
-[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
-[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
-[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
-[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
-[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
-[jekyll-feed]: https://github.com/jekyll/jekyll-feed
-[highlight-js]: https://github.com/highlightjs/highlight.js
+- **Test 1**: Check if the password is in a deny list of common passwords
+
+![Example Test 1 Failure](.guides/img/Test1.png)
+
+- **Test 2**: Validate that the password is between 12 and 50 characters
+
+![Example Test 2 Failure](.guides/img/Test2.png)
+
+- **Test 3**: Ensure the presence of at least one lowercase character
+
+![Example Test 3 Failure](.guides/img/Test3.png)
+
+- **Test 4**: Ensure the presence of at least one uppercase character
+
+![Example Test 4 Failure](.guides/img/Test4.png)
+
+- **Test 5**: Ensure the presence of at least one number
+
+![Example Test 5 Failure](.guides/img/Test5.png)
+
+If all tests pass successfully, the user will be notified accordingly.
+
+![Example of all tests passing successfully](.guides/img/StrongPasswordSuccess.png)
+
+## Code Usage
+
+The following python functions have been coded:
+
+#### 1. Function: print_with_border(message)
+This function prints a given message surrounded by a decorative border.
+Used for displaying multi-line messages with a visually appealing format.
+
+#### 2. Function: checkPassword(password)
+This function validates a proposed password against a predefined deny list and password policy rules.
+Passwords on the deny list (common or easily guessed passwords) are rejected.
+Passwords must meet the following criteria:
+
+ - length between 12 and 50 characters.
+ - contains at least one lowercase letter.
+ - contains at least one uppercase letter.
+ - contains at least one number.
+
+#### 3. Function: main()
+The main function executes a loop allowing users to enter a proposed password and checks its validity. It allows for a user to try again if their proposed password does not conform or exit the program.
+
+## How To Run The Program
+#### Step 1. Execute the script in a Python environment:
+ - The script will guide you through the process of entering a proposed password and provide feedback on its adherence to best practices.
+
+ ![Example program execution](.guides/img/GetStarted.png)
+
+#### Step 2. Review Password Best Practice:
+ - Follow the outlined steps to ensure your password meets best practices.
+
+ ![Example best practice guidance](.guides/img/StrongPasswordGuideance.png)
+
+#### Step 3. Enter a Proposed Password:
+ - Input a proposed password to check if it conforms to best practices.
+
+ ![Example entering proposed password](.guides/img/StartEnteringPassword.png)
+
+## Notes
+
+ - Feel free to customise the thresholds for password length and deny list so that it is in accordance with your own organisations password policy.
+
+ ![Test password length code parameters](.guides/img/TestPasswordlengthCode.png)
+
+ ![Code for passwords deny list](.guides/img/DenyListCode.png)
+
+ - Final note please. It is recommended to use strong passwords as part of a multi factor authentication capability to further strengthen your organisations cyber identify and access management posture.
+
+## References
+- Anderson, T. (2020) Security Engineering: A guide to building dependable distributed systems. 3rd ed. Indianapolis, Indiana: John Wiley & Sons, Inc.
+- Rawal, Bharat S, Gunasekaran Manogaran, and Alexender Peter. (2022) Cybersecurity and Identity Access Management. 1st ed. Singapore: Springer.# Sample content Page 1
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+

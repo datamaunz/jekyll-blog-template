@@ -46,7 +46,7 @@ This is accomplished by using python coded functions that perform the following 
 
 If all tests pass successfully, the user will be notified accordingly.
 
-![Example of all tests passing successfully](./Modules/1/img/StrongPasswordSuccess.png)
+![Example of all tests passing successfully](./Modules/1/img/AllTestsPassed.png)
 
 ## Code Usage
 
@@ -89,9 +89,9 @@ The main function executes a loop allowing users to enter a proposed password an
 
  - Feel free to customise the thresholds for password length and deny list so that it is in accordance with your own organisations password policy.
 
- ![Test password length code parameters](/Modules/1/img/TestPasswordlengthCode.png)
+ ![Test password length code parameters](/Modules/1/img/TestPasswordlength.png)
 
- ![Code for passwords deny list](/Modules/1/img/DenyListCode.png)
+ ![Code for passwords deny list](/Modules/1/img/PasswordDenyList.png)
 
  - Final note please. It is recommended to use strong passwords as part of a multi factor authentication capability to further strengthen your organisations cyber identify and access management posture.
 

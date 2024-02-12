@@ -23,30 +23,16 @@ tags: [Module, Intro]
 TAble of artifacts
 ```
 
-| Parameter                          | Type     | Description                                                                                                       | References                 |
-| :--------                          | :------- | :--------------------------                                                                                       | :------------------------- |
-| `Collaborative Discussion Forum 1` | `string` | Discuss why Cyber Security is now a global issue and why it is important for companies to invest in Cyber Security|[All Forum Posts](https://www.my-course.co.uk/mod/forum/view.php?id=907384) , [My Intial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=196152), [My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)|
-| `Collaborative Discussion Forum 2` | `string` | Identify and discuss two security technologies and the context in which they can be employed. |
-| `Individual Essay`                 | `string` | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated.| [Download](../Modules/1/Module1Unit9Essay.pdf) 
-| `End of Module Assignment`         | `string` | Using Python code, implement at least one solution recommended as part of the proposal submitted in the indivdual essay. |
+| Parameter                                      | Type     | Description                                                                                                            | References                 |
+| :--------                                      | :-------      | :--------------------------                                                                                       | :------------------------- |
+| `Collaborative Discussion Forum 1` *units 1-3* | `Posts`       | Discuss why Cyber Security is now a global issue and why it is important for companies to invest in Cyber Security|[All Forum Posts](https://www.my-course.co.uk/mod/forum/view.php?id=907384) , [My Intial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=196152), [My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)|
+| `Collaborative Discussion Forum 2` *units 4-6* | `Posts`       | Identify and discuss two security technologies and the context in which they can be employed. |
+| `Individual Essay`  *unit 9                    | `Report`      | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated.| [Download](../Modules/1/Module1Unit9Essay.pdf) 
+| `End of Module Assignment`                     | `Python Code` | Using Python code, implement at least one solution recommended as part of the proposal submitted in the indivdual essay. | [Solution README](../Modules/1/ReadMe.md) , [Strong Password Validator Code](../Modules/1/PasswordValidator.py)
 
 
 Collaborative learning discussion 1 *units 1-3*
 
-[All Forum Posts](https://www.my-course.co.uk/mod/forum/view.php?id=907384)
-
-[My Intial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=196152)
-
-[My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)
-
-
-## End of Module Assignment: OOP application of principles and concepts
-
-For my end of module  assignment I have implemented a Python code of at least one solution recommended as part of the proposal submitted in Unit 9.  This includes the cyber security technology being used to address the problem, discussing the strengths and weaknesses of the solutions with references to examples in which the technology has been employed.
-
-Please review the following **Strong Password Validator** user instructions by opening this [README](../Modules/1/ReadMe.md) file.
-
-Once  done, please [Run The Strong Password Validator](../Modules/1/PasswordValidator.py) Program.
 
 
 

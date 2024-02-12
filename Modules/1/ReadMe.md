@@ -46,7 +46,7 @@ This is accomplished by using python coded functions that perform the following 
 
 If all tests pass successfully, the user will be notified accordingly.
 
-![Example of all tests passing successfully](./Modules/1/img/AllTestsPassed.png)
+![Example of all tests passing successfully](/Modules/1/img/AllTestsPassed.png)
 
 ## Code Usage
 

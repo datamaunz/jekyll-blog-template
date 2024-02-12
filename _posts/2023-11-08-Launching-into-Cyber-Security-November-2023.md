@@ -32,9 +32,10 @@ Collaborative learning discussion 1 *units 1-3*
 
 For my end of module  assignment I have implemented a Python code of at least one solution recommended as part of the proposal submitted in Unit 9.  This includes the cyber security technology being used to address the problem, discussing the strengths and weaknesses of the solutions with references to examples in which the technology has been employed.
 
-Please review the following **Strong PAssword Validator** solution along with associatted README file.
+Please review the following **Strong Password Validator** solution along with associatted README file.
 
-![datacamp certification](/assets/images/banners/datacamp_certificate_dummy.jpg)
+[About The Strong Password Validator](Modules/1/PasswordValidator.py)
+[Run The Strong Password Validator](Modules/1/PasswordValidator.py)
 
 
 

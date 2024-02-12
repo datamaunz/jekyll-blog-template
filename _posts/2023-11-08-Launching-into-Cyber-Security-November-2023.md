@@ -42,3 +42,8 @@ tags: [Module, Intro, Python]
 
 *What skills have I gained or enhanced as a result of this module and how can I use it? What else do I need to learn?*
 
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://cn23070.github.io/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/craig-norris-3b787610/)
+
+

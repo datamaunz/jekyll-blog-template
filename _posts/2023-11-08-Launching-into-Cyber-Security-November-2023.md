@@ -27,7 +27,7 @@ TAble of artifacts
 | :--------                          | :------- | :--------------------------                                                                                       | :------------------------- |
 | `Collaborative Discussion Forum 1` | `string` | Discuss why Cyber Security is now a global issue and why it is important for companies to invest in Cyber Security|[All Forum Posts](https://www.my-course.co.uk/mod/forum/view.php?id=907384) , [My Intial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=196152), [My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)|
 | `Collaborative Discussion Forum 2` | `string` | Identify and discuss two security technologies and the context in which they can be employed. |
-| `Individual Essay`                 | `string` | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated.| [Download Essay](https://www.my-course.co.uk/mod/forum/view.php?id=907384)
+| `Individual Essay`                 | `string` | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated.| [Download](../Modules/1/ReadMe.md) 
 | `End of Module Assignment`         | `string` | Using Python code, implement at least one solution recommended as part of the proposal submitted in the indivdual essay. |
 
 

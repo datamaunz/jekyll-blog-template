@@ -26,27 +26,27 @@ This is accomplished by using python coded functions that perform the following 
 
 - **Test 1**: Check if the password is in a deny list of common passwords
 
-![Example Test 1 Failure](cn23070.github.io/Modules/1/img/Test1.png)
+![Example Test 1 Failure](/Modules/1/img/Test1.png)
 
 - **Test 2**: Validate that the password is between 12 and 50 characters
 
-![Example Test 2 Failure](.guides/img/Test2failed.png)
+![Example Test 2 Failure](/Modules/1/img/Test2failed.png)
 
 - **Test 3**: Ensure the presence of at least one lowercase character
 
-![Example Test 3 Failure](.guides/img/Test3failed.png)
+![Example Test 3 Failure](/Modules/1/img/Test3failed.png)
 
 - **Test 4**: Ensure the presence of at least one uppercase character
 
-![Example Test 4 Failure](.guides/img/Test4Failed.png)
+![Example Test 4 Failure](/Modules/1/img/Test4Failed.png)
 
 - **Test 5**: Ensure the presence of at least one number
 
-![Example Test 5 Failure](.guides/img/Test5Failed.png)
+![Example Test 5 Failure](/Modules/1/img/Test5Failed.png)
 
 If all tests pass successfully, the user will be notified accordingly.
 
-![Example of all tests passing successfully](.guides/img/StrongPasswordSuccess.png)
+![Example of all tests passing successfully](./Modules/1/img/StrongPasswordSuccess.png)
 
 ## Code Usage
 
@@ -73,25 +73,25 @@ The main function executes a loop allowing users to enter a proposed password an
 #### Step 1. Execute the script in a Python environment:
  - The script will guide you through the process of entering a proposed password and provide feedback on its adherence to best practices.
 
- ![Example program execution](.guides/img/GetStarted.png)
+ ![Example program execution](/Modules/1/img/GetStarted.png)
 
 #### Step 2. Review Password Best Practice:
  - Follow the outlined steps to ensure your password meets best practices.
 
- ![Example best practice guidance](.guides/img/StrongPasswordGuideance.png)
+ ![Example best practice guidance](/Modules/1/img/StrongPasswordGuideance.png)
 
 #### Step 3. Enter a Proposed Password:
  - Input a proposed password to check if it conforms to best practices.
 
- ![Example entering proposed password](.guides/img/StartEnteringPassword.png)
+ ![Example entering proposed password](/Modules/1/img/StartEnteringPassword.png)
 
 ## Notes
 
  - Feel free to customise the thresholds for password length and deny list so that it is in accordance with your own organisations password policy.
 
- ![Test password length code parameters](.guides/img/TestPasswordlengthCode.png)
+ ![Test password length code parameters](/Modules/1/img/TestPasswordlengthCode.png)
 
- ![Code for passwords deny list](.guides/img/DenyListCode.png)
+ ![Code for passwords deny list](/Modules/1/img/DenyListCode.png)
 
  - Final note please. It is recommended to use strong passwords as part of a multi factor authentication capability to further strengthen your organisations cyber identify and access management posture.
 

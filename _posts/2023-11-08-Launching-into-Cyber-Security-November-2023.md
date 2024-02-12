@@ -28,6 +28,16 @@ Collaborative learning discussion 1 *units 1-3*
 [My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)
 
 
+## End of Module Assignment: OOP application of principles and concepts
+
+For my end of module  assignment I have implemented a Python code of at least one solution recommended as part of the proposal submitted in Unit 9.  This includes the cyber security technology being used to address the problem, discussing the strengths and weaknesses of the solutions with references to examples in which the technology has been employed.
+
+Please review the following **Strong PAssword Validator** solution along with associatted README file.
+
+![datacamp certification](/assets/images/banners/datacamp_certificate_dummy.jpg)
+
+
+
 ## Module 1: Reflections
 
 *Information about what I learnt during this module and how*

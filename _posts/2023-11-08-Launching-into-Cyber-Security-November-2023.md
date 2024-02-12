@@ -3,7 +3,7 @@ layout: post
 title: Module 1 Launching into Cyber Security November 2023
 subtitle: Concepts and principles in the field of Cyber Security. 
 categories: Module_1
-tags: [Module, Intro]
+tags: [Module, Intro, Python]
 ---
 
 *Module 1 will cover the concepts and principles in the field of Cyber Security. This will include the ethical frameworks and competencies required as a Cyber Security professional. The module is made up of 12 units*

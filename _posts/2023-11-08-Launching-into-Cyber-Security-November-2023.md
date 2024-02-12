@@ -8,7 +8,9 @@ tags: [Module, Intro]
 
 *Module 1 will cover the concepts and principles in the field of Cyber Security. This will include the ethical frameworks and competencies required as a Cyber Security professional. The module is made up of 12 units*
 
-### Module 1: Introduction to Cyber Security
+
+## Module 1: Introduction to Cyber Security
+
 
 - Look into the professional roles, skillset, ethical responsibilities of Cyber Security professionals.
 - Explore the relevant computing architectures, practices, applications, and standards.
@@ -19,9 +21,6 @@ tags: [Module, Intro]
 
 ## Module 1: Artifacts
 
-```
-TAble of artifacts
-```
 
 | Parameter                                      | Type     | Description                                                                                                            | References                 |
 | :--------                                      | :-------      | :--------------------------                                                                                       | :------------------------- |
@@ -29,11 +28,6 @@ TAble of artifacts
 | `Collaborative Discussion Forum 2` *units 4-6* | `Posts`       | Identify and discuss two security technologies and the context in which they can be employed. |
 | `Individual Essay`  *unit 9                    | `Report`      | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated.| [Download](../Modules/1/Module1Unit9Essay.pdf) 
 | `End of Module Assignment`                     | `Python Code` | Using Python code, implement at least one solution recommended as part of the proposal submitted in the indivdual essay. | [Solution README](../Modules/1/ReadMe.md) , [Strong Password Validator Code](../Modules/1/PasswordValidator.py)
-
-
-Collaborative learning discussion 1 *units 1-3*
-
-
 
 
 ## Module 1: Reflections
@@ -48,4 +42,3 @@ Collaborative learning discussion 1 *units 1-3*
 
 *What skills have I gained or enhanced as a result of this module and how can I use it? What else do I need to learn?*
 
-![datacamp certification](/assets/images/banners/datacamp_certificate_dummy.jpg)

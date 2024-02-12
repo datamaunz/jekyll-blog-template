@@ -22,12 +22,12 @@ tags: [Module, Intro, Python]
 ## Module 1: Artifacts
 
 
-| Parameter                                      | Type     | Description                                                                                                            | References                 |
-| :--------                                      | :-------      | :--------------------------                                                                                       | :------------------------- |
-| `Collaborative Discussion Forum 1` *units 1-3* | `Posts`       | Discuss why Cyber Security is now a global issue and why it is important for companies to invest in Cyber Security|[All Forum Posts](https://www.my-course.co.uk/mod/forum/view.php?id=907384) , [My Intial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=196152), [My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)|
-| `Collaborative Discussion Forum 2` *units 4-6* | `Posts`       | Identify and discuss two security technologies and the context in which they can be employed. |
-| `Individual Essay`  *unit 9                    | `Report`      | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated.| [Download](../Modules/1/Module1Unit9Essay.pdf) 
-| `End of Module Assignment`                     | `Python Code` | Using Python code, implement at least one solution recommended as part of the proposal submitted in the indivdual essay. | [Solution README](../Modules/1/ReadMe.md) , [Strong Password Validator Code](../Modules/1/PasswordValidator.py)
+| Parameter                                      | Type                        | Description                                                                                                       | References                 |
+| :--------                                      | :-------                    | :--------------------------                                                                                       | :------------------------- |
+| `Collaborative Discussion Forum 1 - Units 1-3` | `Student Forum Posts`       | Discuss why Cyber Security is now a global issue and why it is important for companies to invest in Cyber Security|[All Forum Posts](https://www.my-course.co.uk/mod/forum/view.php?id=907384) , [My Intial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=196152), [My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)|
+| `Collaborative Discussion Forum 2 - Units 4-6` | `Student Forum Posts`       | Identify and discuss two security technologies and the context in which they can be employed. |
+| `Individual Essay - Unit 9`                    | `Report`                    | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated. | [Download](../Modules/1/Module1Unit9Essay.pdf) 
+| `End of Module Assignment - Unit 12`           | `Python Code` | Using Python code, implement at least one solution recommended as part of the proposal submitted in the indivdual essay.         | [View Solution ReadMe File](../Modules/1/ReadMe.md), [Strong Password Validator Solution Code](../Modules/1/PasswordValidator.py)
 
 
 ## Module 1: Reflections

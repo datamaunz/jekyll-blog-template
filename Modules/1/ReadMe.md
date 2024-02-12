@@ -26,7 +26,7 @@ This is accomplished by using python coded functions that perform the following 
 
 - **Test 1**: Check if the password is in a deny list of common passwords
 
-![Example Test 1 Failure](Modules/1/img/Test1.png)
+![Example Test 1 Failure](cn23070.github.io/Modules/1/img/Test1.png)
 
 - **Test 2**: Validate that the password is between 12 and 50 characters
 

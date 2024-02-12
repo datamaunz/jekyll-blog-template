@@ -17,7 +17,19 @@ tags: [Module, Intro]
 - Develop the ability to implement a secure information system using the principles and concepts of object-oriented approaches to solve a given problem, such as information system design and web development.
 - Discuss the ethos of professional development highlighting major ethical-social-corporate responsibilities underpinning the concepts of threats, securities and global impacts prevailing the recent technological innovations and future applications.
 
-#### Module 1: Artifacts
+## Module 1: Artifacts
+
+```
+TAble of artifacts
+```
+
+| Parameter                          | Type     | Description                                                                                                       | References                 |
+| :--------                          | :------- | :--------------------------                                                                                       | :------------------------- |
+| `Collaborative Discussion Forum 1` | `string` | Discuss why Cyber Security is now a global issue and why it is important for companies to invest in Cyber Security|[All Forum Posts](https://www.my-course.co.uk/mod/forum/view.php?id=907384) , [My Intial Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=196152), [My Summary Post](https://www.my-course.co.uk/mod/forum/discuss.php?d=199496)|
+| `Collaborative Discussion Forum 2` | `string` | Identify and discuss two security technologies and the context in which they can be employed. |
+| `Individual Essay`                 | `string` | Apply the Cyber Security methods and techniques studied during the module to develop a solution to a business problemInclude two UML diagrams showing aspects of the system and at least two threat modelling techniques used to identify potential cyber threats and how these are to be mitigated.| 
+| `End of Module Assignment`         | `string` | Using Python code, implement at least one solution recommended as part of the proposal submitted in the indivdual essay. |
+
 
 Collaborative learning discussion 1 *units 1-3*
 
